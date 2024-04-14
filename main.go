@@ -1,17 +1,10 @@
 package main
 
-import (
-	"fmt"
-	"github.com/Danil-114195722/mygomodules/arrays"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("Hello, world!")
-
-	arr1 := []int{1, 2, 3}
-	value1 := 3
-	value2 := 6
-
-	fmt.Printf("value1 in arr1: %v\n", arrays.IntInArray(arr1, value1))
-	fmt.Printf("value2 in arr1: %v\n", arrays.IntInArray(arr1, value2))
+	fmt.Println("")
+	fmt.Println("This source contain modules for Go.")
+	fmt.Println("List of modules use prefix <github.com/Danil-114195722/mygomodules/> to import module:")
+	fmt.Printf("\n\t arrays \t This module contain funcs for arrays\n")
 }
